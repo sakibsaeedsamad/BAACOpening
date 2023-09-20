@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">BA AC Opening</string>
+    <string name="welcome_to">WELCOME TO</string>
+    <string name="online_ac_opening">Online Account Opening</string>
+    <string name="online_ac_opening_msg">Create your account anytime anywhere \n by submitting a handful of data</string>
+    <string name="from_overseas">FROM OVERSEAS</string>
+    <string name="from_bangladesh">FROM BANGLADESH</string>
+    <string name="title">Toolbar\n</string>
+
+    <string name="verification"><![CDATA[A verification code has sent to your mobile & email.]]></string>
+
+    <string name="terms_english">
+  \n
+To protect your sensitive data please complete the Two-Factor Authentication (2FA) process. It will add a security layer – besides using user id and password.
+\n
+
+A verification code (OTP) will be sent to your trusted device or phone number. This verification code is different from your Internet banking/SMART App Password.
+\n\n
+
+<b>Please follow the below mentioned steps:</b>\n
+•	Click proceed button.\n
+•	OTP will be received via SMS &amp; Email.\n
+•	Insert OTP in titled field.\n
+•	Press SUBMIT button to complete Verification process.\n
+•	Then you will be able to Log in to Bank Asia SMART App.\n
+
+</string>
+    <string name="proceed">PROCEED</string>
+    <string name="otp">OTP</string>
+    <string name="submit">SUBMIT</string>
+    <string name="mobile_number">MOBILE NUMBER</string>
+    <string name="email">EMAIL</string>
+    <string name="product_name">PRODUCT NAME</string>
+    <string name="branch_or_agent_name">BRANCH/AGENT NAME</string>
+    <string name="next">NEXT</string>
+    <string name="conventional_banking">CONVENTIONAL BANKING</string>
+    <string name="islamic_banking">ISLAMIC BANKING</string>
+    <string name="agent_banking">AGENT BANKING</string>
+    <string name="conventional_banking_desc">Some text will go here which explain what conventional account is</string>
+    <string name="islamic_banking_desc">Some text will go here which explain what islamic account is</string>
+    <string name="agent_banking_desc">Some text will go here which explain what agent account is</string>
+    <string name="nid_scan_front_text">Scan the front side of NID with camera</string>
+    <string name="nid_scan_back_text">Scan the back side of NID with camera</string>
+    <string name="nid_no">NID NO</string>
+    <string name="date_of_birth">DATE OF BIRTH</string>
+    <string name="full_name_english">FULL NAME (ENGLISH)</string>
+    <string name="fathers_name_english">FATHER\'S NAME (ENGLISH)</string>
+    <string name="fathers_name_bangla">FATHER\'S NAME (BANGLA)</string>
+    <string name="mothers_name_english">MOTHER\'S NAME (ENGLISH)</string>
+    <string name="mothers_name_bangla">MOTHER\'S NAME (BANGLA)</string>
+    <string name="present_address">PRESENT_ADDRESS</string>
+    <string name="permanent_address">PERMANENT ADDRESS</string>
+    <string name="add_nominee">ADD NOMINEE</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_5">5dp</dimen>
+    <dimen name="marginTop_10">10dp</dimen>
+    <dimen name="marginTop_50">50dp</dimen>
+    <dimen name="login_icon_size">100dp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="margin_top_30">30dp</dimen>
+    <dimen name="button_height">60dp</dimen>
+    <dimen name="margin_top_20">20dp</dimen>
+    <dimen name="margin_bottom_10">10dp</dimen>
+    <dimen name="margin_start_80">80dp</dimen>
+    <dimen name="margin_end_80">80dp</dimen>
+    <dimen name="padding_5">5dp</dimen>
+    <dimen name="margin_end_10">10dp</dimen>
+    <dimen name="toolbar_textsize_base">16sp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="margin_top_15">15dp</dimen>
+
+
+    <dimen name="input_field_height_size">60dp</dimen>
+
+    <dimen name="text_input_layout_left_size">5dp</dimen>
+    <dimen name="text_input_layout_right_size">5dp</dimen>
+    <dimen name="text_input_layout_top_size">1dp</dimen>
+    <dimen name="text_input_layout_bottom_size">1dp</dimen>
+    <dimen name="padding_start_15">15dp</dimen>
+    <dimen name="margin_left_10">10dp</dimen>
+    <dimen name="hide_layout_size_base">68dp</dimen>
+    <dimen name="margin_right_10">10dp</dimen>
+    <dimen name="padding_15">15dp</dimen>
+    <dimen name="margin_start_40">40dp</dimen>
+    <dimen name="margin_end_40">40dp</dimen>
+    <dimen name="margin_start_10">10dp</dimen>
+</resources>

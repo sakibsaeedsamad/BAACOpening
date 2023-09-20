@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AcOpening.AcOpenWelcomeActivity">
+
+    <LinearLayout
+        android:id="@+id/lyt_first"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="@dimen/login_icon_size"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/icon_login" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_50"
+            android:gravity="center"
+            android:text="@string/welcome_to"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_25"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/online_ac_opening"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="normal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginTop_10"
+            android:gravity="center"
+            android:text="@string/online_ac_opening_msg"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_18"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lyt_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lyt_first">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top_30"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:weightSum="2">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_from_overseas"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/margin_start_80"
+                android:layout_marginTop="@dimen/margin_top_20"
+                android:layout_marginEnd="@dimen/margin_end_80"
+                android:layout_marginBottom="@dimen/margin_bottom_10"
+                android:padding="@dimen/padding_5"
+                android:background="@drawable/background_transparent_drounded"
+                android:text="@string/from_overseas"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_18"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_from_bangladesh"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/button_height"
+                android:layout_weight="1"
+                android:layout_marginStart="@dimen/margin_start_80"
+                android:layout_marginEnd="@dimen/margin_end_80"
+                android:layout_marginBottom="@dimen/margin_bottom_10"
+                android:background="@drawable/background_app_color_rounded"
+                android:text="@string/from_bangladesh"
+                android:textColor="@color/btn_white"
+                android:textSize="@dimen/text_size_18"
+                android:gravity="center"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
